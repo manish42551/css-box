@@ -1,0 +1,16 @@
+show databases;
+use sathyabama;
+create table csc(
+id int not null,
+firstname varchar(30) not null,
+lastname varchar(30) not null,
+age int not null,
+email varchar(30) not null,
+unique(age,email),
+primaryphone bigint not null,
+secondaryphone bigint not null
+);
+select *from csc;
+insert into csc values(1,"mani","manish",18,"hello",89,98),(2,"hi","fine",78,"buddy",55,32);
+select *from csc;
+
