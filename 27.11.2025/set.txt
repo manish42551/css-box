@@ -1,0 +1,25 @@
+package project7;
+import java.util.*;
+
+public class Set {
+
+	void run(){
+		HashSet hash = new HashSet();
+		hash.add(3);
+		hash.add(1);
+		hash.add(123);
+		hash.add(1417);
+		hash.add(1);
+		System.out.println(hash);
+		Iterator itr= hash.iterator();
+		while(itr.hasNext()){
+			System.out.println(itr.next()+" ");
+		}
+	}
+
+	public static void main(String[] args) {
+		Set obj= new Set();
+		obj.run();
+	}
+
+}

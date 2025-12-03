@@ -1,0 +1,36 @@
+package project1;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class OMRKing{
+
+	public static void main(String[] args) {
+		ArrayList list1=new ArrayList<>();
+		list1.add(10);
+		list1.add("st");
+		list1.add('n');
+		list1.add(1009);
+		list1.add("one");
+		list1.add(10233);
+		list1.add(10112);
+		list1.add("two");
+		list1.add(true);
+		list1.add(false);
+		System.out.println(list1);
+		
+		LinkedList list2=new LinkedList<>();
+		list1.add(10);
+		list1.add("st");
+		list1.add('n');
+		list1.add(1009);
+		list1.add("one");
+		list1.add(10233);
+		list1.add(10112);
+		list1.add("two");
+		list1.add(true);
+		list1.add(false);
+		System.out.println(list2);
+	}
+
+}
